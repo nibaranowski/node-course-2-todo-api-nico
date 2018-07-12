@@ -32,6 +32,16 @@ const {User} = require('./../server/models/user');
 // }).catch((e) => console.log(e));
 
 
+// Todo.findById(id).then((todo) => {
+//     if(!todo) {
+//         return console.log('Unable to find todo');
+//     }
+//
+//     console.log(JSON.stringify(todo, undefined, 2));
+// }, (e) => {
+//     console.log(e);
+// });
+
 var id = '6b462996a871510ce531adbb';
 
 if (!ObjectID.isValid(id)) {
